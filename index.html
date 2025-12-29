@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- START -->
+<div class="card" id="start">
+  <h1>Let’s Get You In</h1>
+  <p>Fill this real quick & start the quiz</p>
+
+  <input id="name" placeholder="Your Name">
+  <input id="branch" placeholder="Your Branch">
+  <input id="reg" placeholder="Registration Number">
+  <button onclick="startQuiz()">Start Quiz 🔥</button>
+</div>
+
+<!-- QUIZ -->
+<div class="card hide" id="quiz">
+  <h3 id="qno"></h3>
+  <h2 id="question"></h2>
+  <div id="options"></div>
+
+  <button id="nextBtn" class="hide" onclick="nextQuestion()">
+    Next
+  </button>
+</div>
+
+<!-- RESULT -->
+<div class="card hide" id="result">
+  <h1>Quiz Complete!</h1>
+  <p id="userinfo"></p>
+  <h1 id="score"></h1>
+  <button onclick="location.reload()">Restart Quiz</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -10,8 +10,7 @@ After completing the quiz, the final score is displayed on the result screen.
 ## 📍 GitHub Repository
 
 You can find the source code here:  
-🔗 https://github.com/archana24557-hub/Student-Quiz-App
-
+🔗 https://archana24557-hub.github.io/Student-Quiz-App/
 ## ✨ Features
 
 - User detail input (Name, Branch, Registration Number)
